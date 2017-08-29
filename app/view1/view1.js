@@ -23,7 +23,7 @@ angular.module('myApp.view1', ['ngRoute'])
 
     vm.messageObj = {
       "name": "",
-      "email": "",
+      "number": "",
       "message": "",
       "timer": ""
     }
