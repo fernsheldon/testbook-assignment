@@ -62,6 +62,7 @@ angular.module('myApp.view1', ['ngRoute'])
 
           if(value.time>1){
             value.time--;
+
           }else{
             alert(value.message);
             vm.messageArr.splice(key,1);
